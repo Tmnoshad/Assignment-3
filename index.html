@@ -27,6 +27,7 @@
         .manrope-font {
             font-family: "Manrope", sans-serif;
         }
+        
       </style>
 </head>
 <body class="manrope-font">
@@ -59,7 +60,7 @@
                   <li><a>Contact Us</a></li>
                 </ul>
               </div>
-              <a class="btn btn-ghost text-xl"><i class="fas fa-arrow-right bg-primary-green p-2 rounded-full"></i>Rinterio</a>
+              <a class="btn btn-ghost text-xl"><i class="fas fa-arrow-right bg-primary-green p-2 rounded-full -rotate-45"></i>Rinterio</a>
             </div>
             <div class="hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
@@ -71,9 +72,9 @@
               </ul>
             </div>
             <div class="">
-                <i class="fas fa-search mr-5 p-2 rounded-full bg-white"></i>
-                <i class="fas fa-cart-plus mr-5 p-2 rounded-full bg-white"></i>
-              <a class="btn bg-primary-green rounded-xl">Book Consult <i class="fas fa-arrow-right"></i></a>
+                <i class="fas fa-search mr-5 p-2 rounded-full bg-white hidden md:block"></i>
+                <i class="fas fa-cart-plus mr-5 p-2 rounded-full bg-white hidden md:block"></i>
+              <a class="btn bg-primary-green rounded-xl">Book Consult <i class="fas fa-arrow-right -rotate-45"></i></a>
             </div>
           </div>
 
@@ -81,9 +82,9 @@
            <div class="container mx-auto">
                 <div class="text-center">
                     <img src="./assets/banner.png" class="block mx-auto">
-                <h1 class="text-5xl font-bold mb-5">A barn house of this design has a <br> striking appearance</h1>
+                <h1 class="text-3xl md:text-5xl font-bold mb-5">A barn house of this design has a <br> striking appearance</h1>
                 <p class="w-8/12 mx-auto mb-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
-                <a href="" class="btn bg-primary-green rounded-xl mb-7">View Details <i class="fas fa-arrow-right"></i></a>
+                <a href="" class="btn bg-primary-green rounded-xl mb-7 bg-[#cef7a1d3]">View Details <i class="fas fa-arrow-right -rotate-45"></i></a>
                 </div>
            </div>
         </div>
@@ -93,12 +94,13 @@
         <!-- About Us -->
          <div class="bg-[#f4f4f4] py-10">
          <div class="container mx-auto px-5">
-            <div class="flex">
-                <div class="subheader w-5/12 gap-3">
+            <div class="md:flex">
+                <div class="subheader md:w-5/12 gap-3">
                     <a class="bg-white p-3 rounded-lg"><i class="fas fa-arrow-right"></i>About Us</a>
-                    <h2 class="py-5 text-4xl font-bold">We design thoughtful, liveable spaces</h2>
+                    <h2 class="py-5 text-3xl md:text-3xl font-bold">We design thoughtful, liveable spaces</h2>
                     <p class="pb-5">The barn house captivates with its blend of rustic charm and 
                         modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                        <!-- box 1 -->
                     <div class="box1 flex p-5 bg-white rounded-lg mb-5">
                         <img src="./assets/commercial.png" alt="">
                         <div>
@@ -109,7 +111,7 @@
 
                     <!-- box 2 -->
 
-                    <div class="box1 flex p-5 bg-white rounded-lg">
+                    <div class="box1 flex p-5 bg-white rounded-lg mb-5">
                         <img src="./assets/residential.png" alt="">
                         <div>
                             <h4>Residential</h4>
@@ -119,19 +121,20 @@
                 </div>
 
                 <!-- right side img -->
-                 <img src="./assets/Rectangle.png" alt="" class="block mx-auto w-[573px] h-[500px]">
+                 <img src="./assets/Rectangle.png" alt="" class="block mx-auto mb:w-[573px] mb:h-[500px]">
             </div>
          </div>
         </div>
         <!-- Latest Protfolio -->
-         <div class="contsiner mx-auto px-11 my-7">
-            <div class="w-5/12 text-center mx-auto">
-                <a href="#" class="p-5 mb-5"><i class="fas fa-arrow-right"></i>How we works</a>
-                <h2 class="text-4xl font-bold">Our Works Process</h2>
+         <div class="bg-[#f4f4f4]">
+         <div class="container mx-auto px-11 py-20 my-7">
+            <div class="mb:w-5/12 text-center mx-auto">
+                <a href="#" class="p-2 rounded-lg bg-white"><i class="fas fa-arrow-right"></i>How we works</a>
+                <h2 class="text-3xl md:text-4xl font-bold mt-10">Our Works Process</h2>
                 <p class="py-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
             </div>
 
-            <div class="grid grid-cols-4 gap-4">
+            <div class="grid grid-cols-1 lg:grid-cols-4 mb:grid-cols-2 gap-4">
                 <div class="p-5 rounded-lg bg-[#E7C1D3]">
                     <img src="./assets/concept.png" alt="">
                     <h4 class="font-bold text-2xl">Concept</h4>
@@ -157,37 +160,44 @@
             </div>
     </div>
      </div>
+    </div>
 
         <!-- Latest Work -->
-         <div class="container mx-auto px-11 my-7">
-            <div class="w-5/12 text-center mx-auto">
-                <a href="#" class="p-5 mb-5"><i class="fas fa-arrow-right"></i>Explore our Latest</a>
-                <h2 class="text-4xl font-bold">Our Latest Portfolio</h2>
+         <div class="container mx-auto px-11 my-10">
+            <div class="mb:w-5/12 text-center mx-auto">
+                <a href="#" class="p-2 bg-[#eefcdf] mb-5 rounded-lg"><i class="fas fa-arrow-right"></i>Explore our Latest Work</a>
+                <h2 class="text-3xl md:text-4xl font-bold mt-7">Our Latest Portfolio</h2>
                 <p class="py-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
             </div>
 
-        <div class="grid grid-cols-5 gap-5">
-            <div class="p-5 shadow col-span-3 flex rounded-lg">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5">
+            <div class="p-5 shadow lg:col-span-3 md:col-span-2 md:flex rounded-lg">
                 <img src="./assets/img1.png" alt="" class="rounded-lg pr-5">
-                <div>
+                <div class="mt-5">
                     <h3>Commercial</h3>
                     <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
-                    <a href="#">View Details <i class="fas fa-arrow-right"></i> </a>
+                    <a href="#">View Details <i class="fas fa-arrow-right bg-primary-green p-2 rounded-full -rotate-45"></i> </a>
                 </div>
             </div>
-            <div class="shadow p-5 rounded-lg col-span-2">
+            <div class="shadow p-5 rounded-lg lg:col-span-2">
                 <img src="./assets/img2.png" alt="">
             </div>
+
+            <!-- d-none lg -->
+            <div class="p-5 rounded-lg shadow lg:hidden">
+                <img src="./assets/img5.png" alt="">
+            </div>
+
             <div class="p-5 rounded-lg shadow">
                 <img src="./assets/img3.png" alt="">
             </div>
             <!-- box -->
-                <div class="p-5 shadow rounded-lg flex col-span-3">
-                    <img src="./assets/img1.png" alt="" class="rounded-lg pr-5">
-                    <div>
-                        <h3>Commercial</h3>
+                <div class="p-5 shadow rounded-lg md:flex lg:col-span-3 md:col-span-2">
+                    <img src="./assets/img4.png" alt="" class="rounded-lg pr-5">
+                    <div class="mt-5">
+                        <h3>Residential</h3>
                         <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
-                        <a href="#">View Details <i class="fas fa-arrow-right"></i> </a>
+                        <a href="#">View Details <i class="fas fa-arrow-right bg-primary-green p-2 rounded-full -rotate-45"></i> </a>
                     </div>
                 </div>
                 <!-- box -->
@@ -198,25 +208,109 @@
         </div>
          </div>
 
+         <!-- Testimonial -->
 
+         <section class="container mx-auto px-11 py-11">
+            <div class="mx-auto text-center md:max-w-xl lg:max-w-3xl">
+              <h3 class="mb-6 text-3xl font-bold">Testimonials</h3>
+              <p class="mb-6 pb-5 md:mb-12 md:pb-5">
+                Read What our Clients Says
+              </p>
+            </div>
+          
+            <div class="grid gap-6 text-center md:grid-cols-3 grid-cols-1 pb-10 mt-20">
+              <div>
+                <div
+                  class="block rounded-lg shadow bg-[#f4f4f4]">
+                  <div class=" overflow-hidden rounded-t-lg"></div>
+                  <div
+                    class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2">
+                    <img
+                      src="https://i.pravatar.cc/300" />
+                  </div>
+                  <div class="p-6">
+                    <h4 class="mb-4 text-2xl font-semibold text-black">Maria Smantha</h4>
+                    <hr />
+                    <p class="mt-4">
+                    <i class="fas fa-quote-left"></i>
+                      Lorem ipsum dolor sit amet eos adipisci, consectetur
+                      adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 2 -->
+              <div class="my-20">
+                <div>
+                    <div
+                      class="block rounded-lg shadow bg-[#f4f4f4]">
+                      <div class=" overflow-hidden rounded-t-lg"></div>
+                      <div
+                        class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2">
+                        <img
+                          src="https://i.pravatar.cc/150?img=3" />
+                      </div>
+                      <div class="p-6">
+                        <h4 class="mb-4 text-2xl font-semibold text-black">Maria Smantha</h4>
+                        <hr />
+                        <p class="mt-4">
+                        <i class="fas fa-quote-left"></i>
+                          Lorem ipsum dolor sit amet eos adipisci, consectetur
+                          adipisicing elit.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <!-- 3 -->
+              <div>
+                <div
+                  class="block rounded-lg shadow bg-[#f4f4f4]">
+                  <div class=" overflow-hidden rounded-t-lg"></div>
+                  <div
+                    class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2">
+                    <img
+                      src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" />
+                  </div>
+                  <div class="p-6">
+                    <h4 class="mb-4 text-2xl font-semibold text-black">Maria Smantha</h4>
+                    <hr />
+                    <p class="mt-4">
+                    <i class="fas fa-quote-left"></i>
+                      Lorem ipsum dolor sit amet eos adipisci, consectetur
+                      adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
          <!--  Contact Form -->
 
          <div class="form">
-            <div class="container mx-auto px-11">
-                <div class="w-5/12 text-center mx-auto">
-                    <a href="#" class="p-5 mb-5"><i class="fas fa-arrow-right"></i>Lets Connect</a>
-                    <h2 class="text-4xl font-bold">Lets Discuss Next Project</h2>
+            <div class="container mx-auto px-11 py-20">
+                <div class="md:w-5/12 text-center mx-auto">
+                    <a href="#" class="p-2 rounded-lg bg-[#A4DAC3]"><i class="fas fa-arrow-right"></i>Lets Connect</a>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-5">Lets Discuss Next Project</h2>
                     <p class="py-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
                 </div>
 
                 <!-- form -->
                  <form action="">
-                    <div class="grid grid-cols-2 w-6/12 mx-auto gap-2">
-                        <input type="text" placeholder="First Name" class="input input-bordered w-full max-w-xs rounded-3xl" />
-                        <input type="text" placeholder="Last Name" class="input input-bordered w-full max-w-xs rounded-3xl" />
-                        <input type="text" placeholder="Phone Number" class="input input-bordered w-full max-w-xs rounded-3xl" />
-                        <input type="text" placeholder="Email" class="input input-bordered w-full max-w-xs rounded-3xl" />
-                        <textarea class="textarea textarea-bordered col-span-2 rounded-3xl" placeholder="Bio"></textarea>
+                    <div class="grid md:grid-cols-2 grid-cols-1 md:w-6/12 mx-auto gap-2">
+                        <div class="col-span-2 md:col-span-1">
+                            <input type="text" placeholder="First Name" class="input input-bordered w-full max-w-xs rounded-3xl" />
+                        </div>
+                        <div class="col-span-2 md:col-span-1">
+                            <input type="text" placeholder="Last Name" class="input input-bordered w-full max-w-xs rounded-3xl" />
+                        </div>
+                        <div class="col-span-2 md:col-span-1">
+                            <input type="text" placeholder="Phone Number" class="input input-bordered w-full max-w-xs rounded-3xl" />
+                        </div>
+                        <div class="col-span-2 md:col-span-1">
+                            <input type="text" placeholder="Email" class="input input-bordered w-full max-w-xs rounded-3xl" />
+                        </div>
+                            <textarea class="textarea textarea-bordered w-[95%] md:w-[100%] col-span-2 rounded-3xl" placeholder="Write your Message Here"></textarea>
 
                         <button class="btn bg-primary-green rounded-3xl col-span-2">Send Email<i class="fas fa-arrow-right"></i></button>
                     </div>
@@ -224,5 +318,27 @@
             </div>
          </div>
     </main>
+
+    <footer class="bg-black">
+        <div class="container mx-auto px-11 py-20"\>
+            <div class="w-6/12 text-white mx-auto text-center">
+                <a class="btn btn-ghost text-xl pb-5"><i class="fas fa-arrow-right bg-primary-green p-2 rounded-full -rotate-45"></i>Rinterio</a>
+            <p class="text-gray-500">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+
+            <ul class="menu menu-horizontal text-white rounded-box py-5">
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Protfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+              <div class="py-5">
+                <a class="btn bg-primary-green rounded-xl">Book Consult <i class="fas fa-arrow-right -rotate-45"></i></a>
+              </div>
+            </div>
+            <!-- nav -->
+
+        </div>
+    </footer>
 </body>
 </html>
